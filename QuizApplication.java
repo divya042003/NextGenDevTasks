@@ -9,13 +9,13 @@ public class QuizApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] questions = {
-            "What is the capital of France?",
-            "What is 9 + 10?",
+            "What is the capital of America?",
+            "What is 2+9 * 10?",
             "Who wrote 'To Kill a Mockingbird'?"
         };
         String[][] options = {
-            {"1) Berlin", "2) Madrid", "3) Paris", "4) Rome"},
-            {"1) 18", "2) 19", "3) 20", "4) 21"},
+            {"1) Berlin", "2) Madrid", "3) Washington", "4) Rome"},
+            {"1) 18", "2) 92", "3) 20", "4) 21"},
             {"1) Harper Lee", "2) Mark Twain", "3) J.K. Rowling", "4) Jane Austen"}
         };
         int[] answers = {3, 2, 1}; // Correct answers
